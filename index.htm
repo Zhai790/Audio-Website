@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Audio Playback Website</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <script src="audio-script.js" defer></script>
+
+        <div class="container">
+            <div class="navbar">
+                <img src="content/logo.png" class="logo">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">GENRE</a></li>
+                    <li><a href="#">ARTISTS</a></li>
+                    <li><a href="#">TRENDING</a></li>
+                    <li><a href="#">LIBRARY</a></li>
+                    <li><a href="#">SETTINGS</a></li>
+                </ul>
+            </div>
+            <div>
+                <div class="content">
+                    <div class="left-column">
+                        <h1>THE<br>BEST<br>OF CHOPIN</h1>
+                    </div>
+                    <div class="right-column">
+                        <p>CLICK TO PLAY AUDIO</p>
+                        <img src="content/play.png" id="button-icon">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <audio id="winter-wind">
+            <source src="content/audio.mp3" type="audio/mp3">
+        </audio>
+    </body>
+</html>
